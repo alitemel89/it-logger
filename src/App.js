@@ -1,16 +1,29 @@
-import React, { useEffect } from "react";
+import React, { useEffect, Fragment } from "react";
 import "materialize-css/dist/css/materialize.min.css";
 import M from "materialize-css/dist/js/materialize.min.js";
 
 import "./App.css";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/layout/SearchBar";
+import Logs from "./components/logs/Logs";
+import AddBtn from "./components/layout/AddBtn";
+import AddLogModal from "./components/logs/AddLogModal";
+
 
 function App() {
   useEffect(() => {
     // Init Materialize JS
     M.AutoInit();
   }, []);
-  return <SearchBar />;
+  return (
+    <Fragment>
+      <SearchBar />
+      <div className="container">
+        <AddBtn />
+        <AddLogModal />
+        <Logs />
+      </div>
+    </Fragment>
+  );
 }
 
 export default App;

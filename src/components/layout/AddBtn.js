@@ -1,6 +1,6 @@
 import React from "react";
 
-function AddBtn() {
+const AddBtn = () => {
   return (
     <div className="fixed-action-btn">
       <a
@@ -19,16 +19,13 @@ function AddBtn() {
           </a>
         </li>
         <li>
-          <a
-            href='#add-tech-modal'
-            className="btn-floating red modal-trigger"
-          >
+          <a href="#add-tech-modal" className="btn-floating red modal-trigger">
             <i className="material-icons">person_add</i>
           </a>
         </li>
       </ul>
     </div>
   );
-}
+};
 
 export default AddBtn;

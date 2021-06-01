@@ -8,26 +8,21 @@
       "date": "2021-05-31T13:51:24.554Z"
     },
     {
+      "id": 2,
       "message": "Hard drive failed in workstation 002",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2021-05-31T11:39:00.184Z",
-      "id": 2
+      "tech": "Sara Wilson",
+      "date": "2021-06-01T07:31:00.830Z"
     },
     {
       "id": 3,
-      "message": "1122 wireless down",
+      "message": "1221 wireless down",
       "attention": true,
-      "tech": "Sam Smith",
-      "date": "2021-05-31T13:51:39.385Z"
+      "tech": "John Doe",
+      "date": "2021-06-01T08:10:16.217Z"
     }
   ],
   "techs": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe"
-    },
     {
       "id": 3,
       "firstName": "Sara",
@@ -42,6 +37,11 @@
       "id": 2,
       "firstName": "Sam",
       "lastName": "Smith"
+    },
+    {
+      "firstName": "Ali",
+      "lastName": "Temel",
+      "id": 5
     }
   ]
 }
